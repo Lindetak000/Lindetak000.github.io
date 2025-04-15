@@ -1,2 +1,36 @@
+title: My Awesome Blog
+description: Sharing ideas, tutorials, and thoughts.
+url: "https://rntscustom3dprinting.w3spaces.com"
+
 theme: minima
-author: Lindetak000
+
+author:
+  name: Takeo Linder
+  email: rnts3d@outlook.com
+
+social_links:
+  github: Lindetak000
+  
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+---
+---
+
+@import "minima";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fdfcfb;
+  color: #333;
+}
+
+a {
+  color: #1e90ff;
+}
