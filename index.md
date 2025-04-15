@@ -1,7 +1,7 @@
 ---
-title: Welcome to my blog
+title: Takeo's Blog
 ---
 
 ---
-author: Bob Jones
+author: Takeo Linder
 ---
