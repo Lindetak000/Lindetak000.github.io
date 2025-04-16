@@ -10,9 +10,9 @@ Glad you're here!
 <!-- Inline HTML is allowed in Markdown files -->
 <script>
   async function collectName() {
-    const name = prompt("Hey there! What's your name?");
+    const name = prompt("Hey! What's your name?");
     if (name) {
-      await fetch("https://your-backend-url.com/store-name", {
+      await fetch("https://name-collector.onrender.com/store-name", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
