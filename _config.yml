@@ -14,17 +14,36 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
----
----
+# Optional configurations
+url: "https://your-website-url.com"  # Replace with your actual URL
+baseurl: ""  # Leave empty for root or set it if hosted in a subfolder
 
-@import "minima";
+# Collections configuration (if needed)
+collections:
+  posts:
+    output: true
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #fdfcfb;
-  color: #333;
-}
+# Google Analytics or other tracking setup (if applicable)
+# google_analytics: UA-XXXXX-Y
 
-a {
-  color: #1e90ff;
-}
+# Enable RSS feed
+feed:
+  path: /atom.xml
+
+# Enable SEO Tags for Jekyll
+seo:
+  title: "My Website Blog"
+  description: "This is my blog for my website."
+  url: "https://your-website-url.com"  # Replace with your actual URL
+
+# Permalink configuration
+permalink: "/:year/:month/:day/:title/"
+
+# Additional configurations for customizing layouts
+defaults:
+  - scope:
+      path: ""  # Default for the entire site
+    values:
+      layout: "default"
+
+# Optional: you can add any custom configuration here, such as for social media or third-party integrations
