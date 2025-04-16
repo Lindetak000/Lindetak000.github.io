@@ -4,12 +4,13 @@ url: "https://rntscustom3dprinting.w3spaces.com"
 
 theme: minima
 
-author:
-  name: Takeo Linder
-  email: rnts3d@outlook.com
+name: Takeo Linder
+email: rnts3d@outlook.com
 
 social_links:
   github: Lindetak000
+  discord: Tapioca
+  printables: Minecraft_Wizard2468
   
 show_excerpts: true
 paginate: 5
