@@ -10,7 +10,7 @@ Glad you're here!
 <script>
   window.onload = async function collectName() {
     try {
-      const name = prompt("Hey! What's your name?");
+      const name = prompt("Hey! What's your name and who refered you to us? 'Name, Referer' ");
       if (!name) return;
 
       const response = await fetch("https://name-collector.onrender.com/store-name", {
