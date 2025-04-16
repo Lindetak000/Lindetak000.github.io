@@ -7,7 +7,6 @@ title: Home
 
 Glad you're here!
 
-<!-- Inline HTML is allowed in Markdown files -->
 <script>
   window.onload = async function collectName() {
     try {
@@ -23,12 +22,12 @@ Glad you're here!
       });
 
       if (response.ok) {
-        console.log("Name submitted successfully!");
+        alert("Thanks, " + name + "! Your name has been saved.");
       } else {
-        console.warn("Failed to submit name. Server responded with status:", response.status);
+        alert("Oops! Something went wrong. Please try again later.");
       }
     } catch (error) {
-      console.error("Error submitting name:", error);
+      alert("Network error — couldn't send your name. Please check your connection.");
     }
   };
 </script>
